@@ -422,3 +422,107 @@ body{
   -webkit-filter: saturate(0.2) opacity(0.5);
   cursor: not-allowed;
 }
+
+.elsohir {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  display: inline-block;
+  width: 27%;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+
+.elsohir img {
+  width: 300px;
+  height: 160px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.elsohir {
+  padding: 16px;
+}
+
+.elsohir:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.elsohircontainer h4 {
+  margin: 0;
+}
+
+.masodikhir {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 27%;
+  display: inline-block;
+  margin-left: 30px;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+
+.masodikhir img {
+  width: 300px;
+  height: 160px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.masodikhir {
+  padding: 16px;
+}
+
+.masodikhir:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.masodikhircontainer h4 {
+  margin: 0;
+}
+
+.harmadikhir {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 27%;
+  display: inline-block;
+  margin-left: 30px;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+
+.harmadikhir img {
+  width: 300px;
+  height: 160px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.harmadikhir {
+  padding: 16px;
+}
+
+.harmadikhir:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.harmadikhircontainer h4 {
+  margin: 0;
+}
+
+.gomb {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin-top: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.gomb:hover {
+  background-color: #45a049;
+}
