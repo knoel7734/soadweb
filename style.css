@@ -509,6 +509,92 @@ body{
   margin: 0;
 }
 
+.negyedikhir {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 27%;
+  display: inline-block;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+
+.negyedikhir img {
+  width: 300px;
+  height: 160px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.negyedikhir {
+  padding: 16px;
+}
+
+.negyedikhir:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.negyedikhircontainer h4 {
+  margin: 0;
+}
+
+.otodikhir {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 27%;
+  display: inline-block;
+  margin-left: 30px;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+
+.otodikhir img {
+  width: 300px;
+  height: 160px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.otodikhir {
+  padding: 16px;
+}
+
+.otodikhir:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.otodikhircontainer h4 {
+  margin: 0;
+}
+
+.hatodikhir {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 27%;
+  display: inline-block;
+  margin-left: 30px;
+  border-radius: 5px;
+  margin-top: 30px;
+}
+
+.hatodikhir img {
+  width: 300px;
+  height: 160px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.hatodikhir {
+  padding: 16px;
+}
+
+.hatodikhir:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.hatodikhircontainer h4 {
+  margin: 0;
+}
+
 .gomb {
   background-color: #4CAF50;
   color: white;
@@ -525,4 +611,49 @@ body{
 
 .gomb:hover {
   background-color: #45a049;
+}
+
+.btn {
+  width: 180px;
+  height: 50px;
+  background: linear-gradient(to top, #5050dd, #5050dd, #5050dd);
+  color: #fff;
+  border-radius: 50px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  position: relative;
+  box-shadow: 0 15px 30px rgba(#5050dd);
+  overflow: hidden;
+}
+
+.btn span {
+  font-size: 12px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: top 0.5s;
+}
+
+.btn-text-one {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.btn-text-two {
+  position: absolute;
+  width: 100%;
+  top: 150%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+.btn:hover .btn-text-one {
+  top: -100%;
+}
+
+.btn:hover .btn-text-two {
+  top: 50%;
 }
